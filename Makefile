@@ -1,9 +1,5 @@
-install: submodules
+install:
 	test -d ~/.vim || mkdir ~/.vim
-	cp -vr autoload ~/.vim/
-	cp -vr bundle ~/.vim/
+	test -e ~/.vim/autoload/plug.vim || curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	cp -vr vimrc ~/.vimrc
-
-submodules:
-	git submodule init
-	git submodule update
+	@echo -e "\nDon't forget to run :PlugInstall in vim!\n"

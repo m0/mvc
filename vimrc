@@ -1,3 +1,22 @@
+" vim-plug config (see https://github.com/junegunn/vim-plug)
+call plug#begin('~/.vim/plugged')
+" NERD tree will be loaded on the first invocation of NERDTreeToggle command
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+
+Plug 'airblade/vim-gitgutter'
+
+Plug 'tpope/vim-fugitive'
+
+Plug 'kien/ctrlp.vim'
+
+Plug 'tpope/vim-surround'
+
+Plug 'jiangmiao/auto-pairs'
+
+call plug#end()
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " automatically indent lines
 set noautoindent
 
@@ -60,8 +79,3 @@ map <F8> <Esc>:tabnext<CR>
 :set hlsearch
 " Press Space to turn off highlighting and clear any message already displayed.
 :nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
-
-" pathogen.vim
-execute pathogen#infect()
-filetype plugin indent on
-
