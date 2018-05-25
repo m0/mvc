@@ -13,6 +13,8 @@ Plug 'tpope/vim-surround'
 
 Plug 'jiangmiao/auto-pairs'
 
+Plug 'Valloric/YouCompleteMe', { 'dir': '~/.vim/plugged/YouCompleteMe', 'do': 'git submodule update --init --recursive && ./install.py --js-completer --go-completer' }
+
 call plug#end()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
