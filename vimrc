@@ -15,6 +15,8 @@ Plug 'jiangmiao/auto-pairs'
 
 Plug 'Valloric/YouCompleteMe', { 'dir': '~/.vim/plugged/YouCompleteMe', 'do': 'git submodule update --init --recursive && ./install.py --js-completer --go-completer' }
 
+Plug 'vim-scripts/buftabs'
+
 call plug#end()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -81,3 +83,7 @@ map <F8> <Esc>:tabnext<CR>
 :set hlsearch
 " Press Space to turn off highlighting and clear any message already displayed.
 :nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+
+" configure buftabs plugin
+set statusline=%=buffers:\ %{buftabs#statusline()}
+
