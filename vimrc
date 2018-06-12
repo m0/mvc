@@ -17,6 +17,10 @@ Plug 'Valloric/YouCompleteMe', { 'dir': '~/.vim/plugged/YouCompleteMe', 'do': 'g
 
 Plug 'vim-scripts/buftabs'
 
+Plug 'vim-airline/vim-airline'
+
+Plug 'vim-airline/vim-airline-themes'
+
 call plug#end()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -86,4 +90,7 @@ map <F8> <Esc>:tabnext<CR>
 
 " configure buftabs plugin
 set statusline=%=buffers:\ %{buftabs#statusline()}
+
+" set airline theme
+let g:airline_theme='dark'
 
