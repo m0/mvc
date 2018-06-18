@@ -66,8 +66,8 @@ set bs=2
 " Automatisches einfügen
 set ai
 
-" pasten geht besser
-set invpaste
+" bind F12 to toggle paste mode
+set pastetoggle=<F12>
 
 " multiline editing helpers
 map <C-J> <C-W>j<C-W>_
