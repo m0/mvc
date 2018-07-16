@@ -1,7 +1,5 @@
 " vim-plug config (see https://github.com/junegunn/vim-plug)
 call plug#begin('~/.vim/plugged')
-" NERD tree will be loaded on the first invocation of NERDTreeToggle command
-Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 
 Plug 'airblade/vim-gitgutter'
 
