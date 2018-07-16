@@ -1,8 +1,10 @@
 " vim-plug config (see https://github.com/junegunn/vim-plug)
 call plug#begin('~/.vim/plugged')
 
+" A Sublime Text 2/3 plugin to see git diff in gutter
 Plug 'airblade/vim-gitgutter'
 
+" fugitive.vim: A Git wrapper so awesome, it should be illegal
 Plug 'tpope/vim-fugitive'
 
 Plug 'kien/ctrlp.vim'
