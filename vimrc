@@ -1,10 +1,10 @@
 " vim-plug config (see https://github.com/junegunn/vim-plug)
 call plug#begin('~/.vim/plugged')
-" NERD tree will be loaded on the first invocation of NERDTreeToggle command
-Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 
+" A Sublime Text 2/3 plugin to see git diff in gutter
 Plug 'airblade/vim-gitgutter'
 
+" fugitive.vim: A Git wrapper so awesome, it should be illegal
 Plug 'tpope/vim-fugitive'
 
 Plug 'kien/ctrlp.vim'
@@ -14,8 +14,6 @@ Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
 
 Plug 'Valloric/YouCompleteMe', { 'dir': '~/.vim/plugged/YouCompleteMe', 'do': 'git submodule update --init --recursive && ./install.py --js-completer --go-completer' }
-
-Plug 'vim-scripts/buftabs'
 
 Plug 'vim-airline/vim-airline'
 
