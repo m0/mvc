@@ -94,3 +94,6 @@ set statusline=%=buffers:\ %{buftabs#statusline()}
 " set airline theme
 let g:airline_theme='dark'
 
+" YouCompleteMe optimization
+let g:ycm_autoclose_preview_window_after_completion = 1
+let g:ycm_autoclose_preview_window_after_insertion = 1
