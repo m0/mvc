@@ -97,3 +97,9 @@ let g:airline_theme='dark'
 " YouCompleteMe optimization
 let g:ycm_autoclose_preview_window_after_completion = 1
 let g:ycm_autoclose_preview_window_after_insertion = 1
+
+" pretty format of tabs 'n stuff
+:set list
+:set listchars=tab:→\ ,trail:␣,extends:…,eol:⏎
+:hi SpecialKey ctermfg=DarkGray
+:hi NonText ctermfg=DarkGray
