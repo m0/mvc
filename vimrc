@@ -60,10 +60,10 @@ set nocompatible
 " changes special characters in search patterns
 set magic
 
-" Zeilenumbrüche löschen
+" ZeilenumbrÃ¼che lÃ¶schen
 set bs=2
 
-" Automatisches einfügen
+" Automatisches einfÃ¼gen
 set ai
 
 " bind F12 to toggle paste mode
