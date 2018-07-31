@@ -103,3 +103,6 @@ let g:ycm_autoclose_preview_window_after_insertion = 1
 :set listchars=tab:→\ ,trail:␣,extends:…,eol:⏎
 :hi SpecialKey ctermfg=DarkGray
 :hi NonText ctermfg=DarkGray
+
+" switch off bell (beep and flashing)
+:set belloff=all
