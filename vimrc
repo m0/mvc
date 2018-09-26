@@ -108,3 +108,6 @@ let g:ycm_autoclose_preview_window_after_insertion = 1
 
 " switch off bell (beep and flashing)
 :set belloff=all
+
+" disable folding by default
+:set nofoldenable
