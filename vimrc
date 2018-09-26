@@ -21,6 +21,8 @@ Plug 'vim-airline/vim-airline-themes'
 
 Plug 'fatih/vim-go'
 
+Plug 'arrufat/vala.vim'
+
 call plug#end()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
