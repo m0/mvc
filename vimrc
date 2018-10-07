@@ -113,3 +113,9 @@ let g:ycm_autoclose_preview_window_after_insertion = 1
 
 " disable folding by default
 :set nofoldenable
+
+" show line numbers by default ...
+set number
+" ... and user F3 to toggle
+noremap <F3> :set invnumber<CR>
+inoremap <F3> <C-O>:set invnumber<CR>
