@@ -65,10 +65,10 @@ set nocompatible
 " changes special characters in search patterns
 set magic
 
-" Zeilenumbrüche löschen
-set bs=2
+" delete linebreaks
+set backspace=2
 
-" Automatisches einfügen
+" automatic insert
 set ai
 
 " bind F12 to toggle paste mode
@@ -79,7 +79,6 @@ map <C-J> <C-W>j<C-W>_
 map <C-K> <C-W>k<C-W>_
 set wmh=0
 
-set ts=4
 set background=dark
 
 "set fileencodings=ucs-bom,utf-8,latin1
