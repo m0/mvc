@@ -27,6 +27,9 @@ call plug#end()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" enable filetype-plugin for filetype specific config
+filetype plugin on
+
 " automatically indent lines
 set noautoindent
 

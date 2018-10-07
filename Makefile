@@ -2,6 +2,7 @@ install: checkdeps
 	test -d ~/.vim || mkdir ~/.vim
 	test -e ~/.vim/autoload/plug.vim || curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	cp -vr vimrc ~/.vimrc
+	cp -vr ftplugin ~/.vim/
 	@echo
 	@echo "Don't forget to run :PlugInstall (and maybe :PlugClean) in vim!"
 	@echo
