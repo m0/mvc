@@ -29,6 +29,7 @@ call plug#end()
 
 " enable filetype-plugin for filetype specific config
 filetype plugin on
+au! BufNewFile,BufRead *.yml,*.yml.j2 setf yaml
 
 " automatically indent lines
 set noautoindent
